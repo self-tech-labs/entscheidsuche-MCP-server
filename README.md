@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/self-tech-labs-entscheidsuche-mcp-server-badge.png)](https://mseep.ai/app/self-tech-labs-entscheidsuche-mcp-server)
+
 # Entscheidsuche MCP Server
 
 An MCP server for accessing the entscheidsuche.ch Swiss legal decision search API.
