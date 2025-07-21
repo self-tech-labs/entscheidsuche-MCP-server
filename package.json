@@ -1,0 +1,28 @@
+{
+  "name": "entscheidsuche-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for searching Swiss case law using Entscheidsuche API",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "entscheidsuche-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "watch": "tsc -w"
+  },
+  "keywords": ["mcp", "legal", "case-law", "switzerland", "entscheidsuche"],
+  "author": "MCP Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "files": ["build"]
+}
