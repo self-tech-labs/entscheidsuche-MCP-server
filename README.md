@@ -2,6 +2,8 @@
 
 Note : this is a legacy project, that was created on 21.07.2025. As of 25.04.2026 there is now an official entscheidsuche MCP server at https://github.com/entscheidsuche/entscheidsuche-mcp. This legacy project is for archive read only. 
 
+---
+
 A Model Context Protocol (MCP) server for searching and accessing Swiss legal case law through the Entscheidsuche API. This server enables legal professionals to efficiently research court decisions from Swiss federal and cantonal courts.
 
 ## Features
